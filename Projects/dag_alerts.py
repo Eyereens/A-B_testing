@@ -16,7 +16,7 @@ class Getch:
     def __init__(self, query, db='simulator'):
         self.connection = {
             'host': 'https://clickhouse.lab.karpov.courses',
-            'password': 'dpo_python_2020',
+            'password': '_________',
             'user': 'student',
             'database': db,
         }
