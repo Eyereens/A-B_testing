@@ -36,7 +36,7 @@
    "source": [
     "connection = {\n",
     "    'host': 'https://clickhouse.lab.karpov.courses',\n",
-    "    'password': 'dpo_python_2020',\n",
+    "    'password': '_______',\n",
     "    'user': 'student',\n",
     "    'database': 'simulator_20220920'\n",
     "}"
