@@ -7,7 +7,7 @@ import requests
 from airflow.decorators import dag, task
 from airflow.operators.python import get_current_context
 
-def ch_get_df(query='Select 1', host='https://clickhouse.lab.karpov.courses', user='student', password='dpo_python_2020'):
+def ch_get_df(query='Select 1', host='https://clickhouse.lab.karpov.courses', user='student', password='_______'):
     r = requests.post(host, data=query.encode("utf-8"), auth=(user, password), verify=False)
     result = pd.read_csv(StringIO(r.text), sep='\t')
     return result
