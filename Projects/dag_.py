@@ -16,14 +16,14 @@ connection_simulator_20220920 = {
     'host': 'https://clickhouse.lab.karpov.courses',
     'database':'simulator_20220920',
     'user':'student',
-    'password':'dpo_python_2020'
+    'password':'_______'
 }
 
 connection_test = {
     'host': 'https://clickhouse.lab.karpov.courses',
     'database':'test',
     'user':'student-rw',
-    'password':'656e2b0c9c'
+    'password':'_______'
 }
 
 # Дефолтные параметры
